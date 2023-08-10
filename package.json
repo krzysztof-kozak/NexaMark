@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/krzysztof-kozak/some-parcel-project/issues"
   },
-  "homepage": "https://github.com/krzysztof-kozak/some-parcel-project#readme"
+  "homepage": "https://github.com/krzysztof-kozak/some-parcel-project#readme",
+  "devDependencies": {
+    "prettier": "3.0.1"
+  }
 }
