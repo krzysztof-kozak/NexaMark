@@ -4,7 +4,7 @@ Welcome to the NexaMark Marketing Website! This project was born from the curiou
 
 ## Live Demo
 
-Why settle for just words when you can experience the magic yourself? Behold the mesmerizing dance of code and design in action: [NexaMark Marketing Website Demo](https://vercel.com/krzysztof-kozak/some-parcel-project/GmXEFifCCsZ8Rf5P7Z6Mgg7AFoSt)
+Why settle for just words when you can experience the magic yourself? Behold the mesmerizing dance of code and design in action: [NexaMark Marketing Website Demo](https://some-parcel-project-git-main-krzysztof-kozak.vercel.app/)
 
 ## Project Source Code
 
