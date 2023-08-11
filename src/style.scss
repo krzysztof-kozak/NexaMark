@@ -3,4 +3,53 @@
 :root {
   background-color: $dark-slate;
   color: $light-slate;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navigation {
+  max-width: $max-nav-width;
+  margin-inline: auto;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  color: $nav-default-color;
+  font-size: 1.25rem;
+
+  &__item {
+    text-decoration: none;
+
+    &:hover {
+      color: $nav-hover-color;
+    }
+  }
+
+  &__item--accent {
+    font-weight: 700;
+    color: $medium-blue;
+  }
 }
