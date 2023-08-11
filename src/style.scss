@@ -21,7 +21,8 @@ header {
 footer {
   font-weight: bold;
   font-size: 1.25rem;
-  margin-top: 3rem;
+  padding-top: 3rem;
+  margin-top: auto;
   margin-inline: auto;
 }
 
@@ -54,6 +55,7 @@ li {
 }
 
 .content-wrapper {
+  width: 100%;
   max-width: $max-content-width;
   margin-inline: auto;
 }
@@ -117,12 +119,57 @@ li {
     margin-inline: auto;
 
     &:before {
-      content: "✅";
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 20px; /* Adjust the size as needed */
+      content: "";
     }
+
+    &--with-decoration {
+      &:before {
+        content: "✅";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.card-wrapper {
+  display: grid;
+  gap: 1rem;
+  place-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1rem));
+
+  &--wide {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1rem));
+  }
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: $medium-slate;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  &__description {
+    max-width: 35ch;
+  }
+
+  &__image {
+    border-radius: 50%;
+    height: 95px;
+    aspect-ratio: 1/1;
+    border: 2px solid $accent;
   }
 }
