@@ -2,7 +2,7 @@
   "name": "my-project",
   "version": "1.0.0",
   "description": "hello world",
-  "source": "src/index.html",
+  "source": "./src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start-lazy": "parcel --lazy",
