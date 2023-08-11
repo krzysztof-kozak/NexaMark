@@ -54,6 +54,12 @@ li {
   color: $accent;
 }
 
+.active-link {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: $accent;
+}
+
 .content-wrapper {
   width: 100%;
   max-width: $max-content-width;
@@ -72,8 +78,6 @@ li {
   font-size: 1.25rem;
 
   &__item {
-    text-decoration: none;
-
     &:hover {
       color: $nav-hover-color;
     }
