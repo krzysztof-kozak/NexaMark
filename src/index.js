@@ -10,5 +10,10 @@ for (const link of navLinks) {
 
 function isCurrentPage(link) {
     const linkHref = link.getAttribute("href");
+
+    if (currentPage === "/") {
+        return linkHref === "/index.html";
+    }
+
     return linkHref === currentPage;
 }
