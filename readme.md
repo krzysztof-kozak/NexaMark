@@ -32,7 +32,7 @@ To embark on your own journey through the NexaMark Marketing Website, follow the
 2. **Install Dependencies:** Navigate to the project directory and install the required dependencies:
 
    ```sh
-   cd some-parcel-project
+   cd NexaMark
    npm install
    ```
 
