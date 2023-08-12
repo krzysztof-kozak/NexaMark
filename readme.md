@@ -4,11 +4,11 @@ Welcome to the NexaMark Marketing Website! This project was born from the curiou
 
 ## Live Demo
 
-Why settle for just words when you can experience the magic yourself? Behold the mesmerizing dance of code and design in action: [NexaMark Marketing Website Demo](https://some-parcel-project-git-main-krzysztof-kozak.vercel.app/)
+Why settle for just words when you can experience the magic yourself? Behold the mesmerizing dance of code and design in action: [NexaMark Marketing Website Demo](https://nexamark.vercel.app/)
 
 ## Project Source Code
 
-Brave souls, rejoice! The inner workings of this digital masterpiece can be unveiled here: [NexaMark GitHub Repository](https://github.com/krzysztof-kozak/some-parcel-project/tree/main/src)
+Brave souls, rejoice! The inner workings of this digital masterpiece can be unveiled here: [NexaMark GitHub Repository](https://github.com/krzysztof-kozak/NexaMark/tree/main/src)
 
 ## Purpose of the Project
 
@@ -26,7 +26,7 @@ To embark on your own journey through the NexaMark Marketing Website, follow the
 1. **Clone the Repository:** Begin by cloning the project's repository to your local machine using the following command:
 
    ```sh
-   git clone https://github.com/krzysztof-kozak/some-parcel-project.git
+   git clone https://github.com/krzysztof-kozak/NexaMark.git
    ```
 
 2. **Install Dependencies:** Navigate to the project directory and install the required dependencies:
