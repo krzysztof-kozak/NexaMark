@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start-lazy": "parcel --lazy",
-    "start": "parcel",
+    "start": "parcel src/*.html",
     "build": "parcel build",
     "greet": "node ./src/greet.js",
     "moo": "cowsay -s hello!"
